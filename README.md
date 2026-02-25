@@ -128,8 +128,8 @@ From EDA, most characters are approximately **10 × 8 pixels**.
 For a new captcha:
 
 1. Segment into 5 characters  
-2. Resize each to 10×8  
-3. Compute correlation with all character templates  
+2. Resize each character image to 10×8 pizels
+3. Compute correlation of each character with all character templates [Section 4.1.4](#414-template-construction)
 4. Select character with highest correlation  
 5. Concatenate the 5 predictions to obtain the final captcha string.
 
