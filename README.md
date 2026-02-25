@@ -14,6 +14,7 @@
   - [5.1. Model](#51-model)
   - [5.2. Notebook](#52-notebook)
   - [5.3. Src](#53-src)
+  - [6. Creating the Virtual Environment](#6-creating-the-virtual-environment)
 
 # 2. Project
 
@@ -162,3 +163,16 @@ The `src/` directory contains the main logic for CAPTCHA recognition, primarily 
     - Predicts each character by computing correlation with stored templates.
     - Outputs the predicted string to a specified file.
 - **Main script:** Provides an example of running the Captcha class on a sample input and saving the result.
+ 
+ ## 6. Creating the Virtual Environment
+ 
+ To set up your Python environment and install dependencies:
+ - Using `pip install`
+ 
+    ```
+    pip install -r requirements.txt
+    ```
+ - Using  
+    ```
+    uv sync
+    ```
