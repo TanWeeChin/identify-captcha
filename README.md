@@ -172,7 +172,7 @@ The `src/` directory contains the main logic for CAPTCHA recognition, primarily 
     ```
     pip install -r requirements.txt
     ```
- - Using  
+ - Using  `uv`
     ```
     uv sync
     ```
